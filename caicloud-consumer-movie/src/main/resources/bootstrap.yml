@@ -4,7 +4,7 @@ spring:
   application:
     name: caicloud-consumer-movie
   zipkin:
-    base-url: http://testzipkin-server:9411
+    base-url: http://gen-zipkin5t1agjeggx:9411
   sleuth:
     sampler:
       percentage: 1
