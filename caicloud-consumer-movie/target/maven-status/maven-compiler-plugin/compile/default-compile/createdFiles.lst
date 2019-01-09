@@ -1,0 +1,11 @@
+com/caicloud/feign/UserFeignClientWithFactory.class
+com/caicloud/feign/HystrixClientFactory$1.class
+com/caicloud/controller/CpuController.class
+com/caicloud/feign/HystrixClientFallback.class
+com/caicloud/entity/User.class
+com/caicloud/controller/CpuController$1.class
+com/caicloud/controller/MovieController.class
+com/caicloud/feign/UserFeignClient.class
+com/caicloud/ConsumerMovieRibbonApplication.class
+com/caicloud/feign/HystrixClientFactory.class
+com/caicloud/controller/CpuController$2.class

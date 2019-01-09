@@ -1,0 +1,8 @@
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/feign/HystrixClientFactory.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/controller/MovieController.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/ConsumerMovieRibbonApplication.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/entity/User.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/controller/CpuController.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/feign/HystrixClientFallback.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/feign/UserFeignClientWithFactory.java
+/Users/luomin/java/caicloud-spring/caicloud-consumer-movie/src/main/java/com/caicloud/feign/UserFeignClient.java
