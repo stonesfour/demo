@@ -1,0 +1,59 @@
+server:
+  port: 8081
+spring:
+  # datasource:
+  #   platform: h2
+  #   schema: classpath:schema.sql
+  #   data: classpath:data.sql
+  #   driver-class-name: org.h2.Driver
+  #   url: jdbc:h2:~/test
+  #   username: h2
+  #   password: 123456
+  # jpa:
+  #   generate-ddl: false
+  #   show-sql: true
+  #   hibernate:
+  #     ddl-auto: update
+  #   database: h2
+  # h2:
+  #   console:
+  #     path: /h2-console
+  #     settings:
+  #       web-allow-others: true
+  #     enabled: true
+  # freemarker:
+  #   template-loader-path: classpath:/templates
+  #   charset: utf-8
+  #   cache: false
+  #   check-template-location: true
+  #   content-type: text/html
+  #   expose-request-attributes: false
+  #   request-context-attribute: request
+  #   suffix: .ftl
+  application:
+    name: caicloud-provider-user
+  zipkin:
+    base-url: http://gen-zipkin5t1agjeggx:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
+logging:
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+    com.caicloud: DEBUG
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://gen-eurekai5jj9lz5:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${server.port}
+    metadata-map:
+      zone: ABC      # eureka可以理解的元数据
+      lilizhou: BBC  # 不会影响客户端行为
+    lease-renewal-interval-in-seconds: 5
+    
+management.endpoints.web.exposure.include: "*"
