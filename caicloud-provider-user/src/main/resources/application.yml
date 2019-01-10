@@ -32,11 +32,11 @@ spring:
   #   suffix: .ftl
   application:
     name: caicloud-provider-user
-  zipkin:
-    base-url: http://gen-zipkin5t1agjeggx:9411
-  sleuth:
-    sampler:
-      percentage: 1.0
+  #zipkin:
+  #  base-url: http://gen-zipkin5t1agjeggx:9411
+  #sleuth:
+  #  sampler:
+  #    percentage: 1.0
 logging:
   level:
     root: INFO
